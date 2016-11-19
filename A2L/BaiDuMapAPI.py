@@ -22,6 +22,7 @@ def address2LngLat(address):
     else:
 
         return 0,0,resp1['msg']
+    #just for test
 
 
 
