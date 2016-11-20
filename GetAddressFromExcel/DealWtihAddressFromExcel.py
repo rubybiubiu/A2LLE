@@ -5,8 +5,8 @@ from openpyxl import load_workbook
 def DealWithExcel(filename):
     from A2L import BaiDuMapAPI
     wb=load_workbook(filename)
-    ws=wb.active
-    ws.title='address'
+    ws=wb.active  #激活第一个表格
+    ws.title='address'#工作表的名字
     ws['C1']='经度'
     ws['D1']='纬度'
 
